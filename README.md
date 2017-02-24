@@ -8,13 +8,13 @@ If you are a game developer it’s as easy as 1-2-3.
 
 The Fizzyo device appears as a Joystick on the computer, so you simply need to have your game interpret joystick inputs.
 
-We allow for 2 types of inputs:
+### We allow for 2 types of inputs:
 
  - Breath – This appears as the Horizontal axis of the joystick, (float) returns breath strength from (-1 – 1) with 0 being not breathing, > 0.7 blowing or breathing out hard and < -.5 breathing in hard
  
  - Button Press – We’ve added 1 button to the device to make game interactions a little more sophisticated. This button appears as Fire1 from a joystick control.
 
-If you are developing in Unity, you can use the following commands:
+### If you are developing in Unity, you can use the following commands:
 
 ```
 //(bool) Will return if the Fizzyo button is pressed or not.
