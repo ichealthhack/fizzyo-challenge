@@ -1,5 +1,7 @@
 # Cystic Fibrosis 101
 
+![Cystic Fibrosis Trust Logo](https://github.com/ichealthhack/fizzyo-challenge/blob/master/CFT.png)
+
 5 babies are born with cystic fibrosis each week in the UK.
 
 2 lives are lost every week in the UK to the condition.
