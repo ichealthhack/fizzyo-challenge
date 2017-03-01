@@ -1,7 +1,5 @@
 # Thanks for entering the Microsoft Fizzyo Challenge
 
-If you saw [episode 3 of the Big Life Fix](https://www.youtube.com/watch?v=d6A8R146JW) featuring the Coxhead family, you’ll have seen the connected Physio device (which we’ve affectionately dubbed ‘Fizzyo’) turning their daily Cystic Fibrosis exercises into video game sessions.
-
 Our hope is the Fizzyo device this will motivate children to do their physio every day and potentially help other families with Cystic Fibrosis as well!
 
 If you are a game developer it’s as easy as 1-2-3.
