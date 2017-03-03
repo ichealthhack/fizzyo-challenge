@@ -70,9 +70,9 @@ In relation to output of the games from Health Hack we would like to implement a
 
 ## Useful videos on Patient physio and technique
 
-Which is the best Airway Clearance method for Cystic Fibrosis? https://www.youtube.com/watch?v=Wn5o5AgD9m0
-Cystic fibrosis breathing techniques – acapella device https://www.youtube.com/watch?v=DJFp6A_p2R8
-Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask https://www.youtube.com/watch?v=C1SLdjvNg9U
+- [Which is the best Airway Clearance method for Cystic Fibrosis?](https://www.youtube.com/watch?v=Wn5o5AgD9m0)
+- [Cystic fibrosis breathing techniques – acapella device](https://www.youtube.com/watch?v=DJFp6A_p2R8)
+- [Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask](https://www.youtube.com/watch?v=C1SLdjvNg9U)
 
 ## Hack entry specific requirements for this challenge
 
@@ -111,3 +111,11 @@ Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask
 - Input from the pep devices should be mapped to Unity3D joystick controls
 
 - Details of the games architecture and database schemas should be documented within the submissions
+
+## Prizes for best Hack Entry
+
+- [Microsoft Band 2](https://www.microsoft.com/microsoft-band/en-gb)
+- [Microsoft Adafruit Feather M0 Kit (Arduino-compatible)](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-adafruit-feather-m0-wifi-kit-arduino-get-started)
+- Microsoft Goodie Bag
+- Microsoft T Shirt
+- Microsoft Xbox Onezie
