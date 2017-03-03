@@ -44,6 +44,7 @@ In relation to output of the games from Health Hack we would like to implement a
 - We will be providing a Unity test harness for importing test data into developed games.
 
 ## How the Devices are used by Patients and how this should be related to game play
+
 - Although getting a decent sized breath during inspiration is important – most of the focus is on expiration (this is the part where airway clearance is most effective).
 
 - Inspiration is ‘free’ and un-resisted in all three techniques – while all 3 devices provide resistance against expiratory airflow 
@@ -57,7 +58,7 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - Children aim for prolonged steady expiratory flow of at least 3s (although this may be a bit shorter in small children or those with severe disease who are breathless)
 
-- The resistance in mid expiration for PEP should be 10-20cmH2O (ideally 12-15) measured by PEP manometer (in circuit) for mid-part of expiration. (who knows what resistance is achieved in acapella or Flutter?! – similar in theory – and apparently modifiable in both – but difficult to measure)
+- The resistance in mid expiration for PEP should be 10-20cm H2O (ideally 12-15) measured by PEP manometer (in circuit) for mid-part of expiration.
 
 - Treatments usually consistent of a series of ‘cycles’ – One cycle might typically include say 8-10 breaths through device (PEP & Acapella & Flutter ) as described above, followed by fewer but more forceful huffs (often not through the device- although some will huff through their PEP) and coughing as needed. The cycles are repeated until the chest feels clear. 
 
@@ -66,6 +67,12 @@ In relation to output of the games from Health Hack we would like to implement a
 - There needs to be a threshold for effort for an active blow (so that it doesn’t just respond to normal passive expiration) 
 
 - It is important that we don’t incentivise more effort but do motivate for a longer blow, eg. acceleration could increase the longer the blow but definitely not accelerate with increased effort beyond the threshold trigger point.
+
+## Useful videos on Patient physio and technique
+
+Which is the best Airway Clearance method for Cystic Fibrosis? https://www.youtube.com/watch?v=Wn5o5AgD9m0
+Cystic fibrosis breathing techniques – acapella device https://www.youtube.com/watch?v=DJFp6A_p2R8
+Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask https://www.youtube.com/watch?v=C1SLdjvNg9U
 
 ## Hack entry specific requirements for this challenge
 
