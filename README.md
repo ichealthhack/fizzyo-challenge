@@ -8,7 +8,7 @@ The Fizzyo device appears as a Joystick on the computer, so you simply need to h
 
 ### We allow for 2 types of inputs:
 
- - Breath – This appears as the Horizontal axis of the joystick, (float) returns breath strength from (-1 – 1) with 0 being not breathing, > 0.7 blowing or breathing out hard and < -.5 breathing in hard
+ - Breath – This appears as the Horizontal axis of the joystick, (float) returns breath strength from (-1 – 1) with 0 being not breathing, > 0.7 blowing or breathing out hard and < -0.5 breathing in hard
  
  - Button Press – We’ve added 1 button to the device to make game interactions a little more sophisticated. This button appears as Fire1 from a joystick control.
 
@@ -19,9 +19,31 @@ The Fizzyo device appears as a Joystick on the computer, so you simply need to h
 Input.GetButtonDown("Fire1");
 
 //(float) returns breath strength from (-1 – 1) with 0 being not breathing,
-          > 0.7 blowing or breathing out hard and < -.5 breathing in hard
+          > 0.7 blowing or breathing out hard and < -0.5 breathing in hard
 Input.GetAxis("Horizontal");
 ```
+##Example of Bluetooth Joytsicks which can be used to replicate the devices
+
+Analogue Joystick input is required. 
+
+[Motionjoy® Mini Wireless Bluetooth Joystick GamePad Controller Selfie Remote Shutter for IOS Android Phone PC Tablet VR (Black)] (https://www.amazon.co.uk/gp/product/B01AI9CZVE/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1)
+
+[VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet] )https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
+
+
+##Typical Physio Sequence
+9 - 10 cycles of the following routine
+Long slow breadth in until lungs are full (typically 2 sec depending on size of child)
+Hold the breadth 
+Exhale out active but not forced (typically 3 secs in length maintained velocity) 
+Then a huff/cough (the device is typically removed) This is forceful and the most important as its part of airway clearance (can this be used with your game)
+
+##Game Types - think about the exercise
+
+Games children have suggested
+Bowling/firing a object (Breadth to charge)
+Geometry Dash/Flappy Bird (Jumping or movement)
+Angry Bird (Breadth to charge/fire)
 
 ## Game requirements
 
@@ -73,6 +95,27 @@ In relation to output of the games from Health Hack we would like to implement a
 - [Which is the best Airway Clearance method for Cystic Fibrosis?](https://www.youtube.com/watch?v=Wn5o5AgD9m0)
 - [Cystic fibrosis breathing techniques – acapella device](https://www.youtube.com/watch?v=DJFp6A_p2R8)
 - [Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask](https://www.youtube.com/watch?v=C1SLdjvNg9U)
+
+##Cloud Services & Backend
+
+All attendees will be provided with [Microsoft Azure](https://azure.microsoft.com) you will recieve $100 credit per month for 6 months 
+If you develop any cloud services please ensure all necessary scripts, database schema and scripts are added to the github repo.
+If your new to Azure you watch this quick webinar [How to Get Started on Azure](https://info.microsoft.com/UK-MSFT-WBNR-FY17-11Nov-24-HowtoGetStartedonAzure-269444_Registration.html)
+Azure cloud services offer you the ability to add storage, game save, leaderboards, High Scores.
+[More Detail on Azure Cloud for Gaming] (https://azure.microsoft.com/en-us/solutions/gaming/)
+
+##Useful Resources for Cloud Gaming
+
+##Service Fabric Opensource Gaming Framework
+[What is Servcie Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
+[Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
+[Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
+
+#Azure SDK and tools
+
+[Unity Azure SDK] (https://github.com/Unity3dAzure)
+[Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
+In future you can add Windows 10/Xbox Live Creators Update - [Add Xbox Gaming Features to your game - In Preview] (https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
 
 ## Hack entry specific requirements for this challenge
 
