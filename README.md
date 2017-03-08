@@ -111,7 +111,7 @@ In relation to output of the games from Health Hack we would like to implement a
 ##Useful Resources for Cloud Gaming
 
 ###Service Fabric Opensource Gaming Framework
-[What is Servcie Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
+[What is Service Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
 [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
 [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
