@@ -99,8 +99,11 @@ In relation to output of the games from Health Hack we would like to implement a
 ##Cloud Services & Backend
 
 All attendees will be provided with [Microsoft Azure](https://azure.microsoft.com) you will recieve $100 credit per month for 6 months 
+
 If you develop any cloud services please ensure all necessary scripts, database schema and scripts are added to the github repo.
+
 If your new to Azure you watch this quick webinar [How to Get Started on Azure](https://info.microsoft.com/UK-MSFT-WBNR-FY17-11Nov-24-HowtoGetStartedonAzure-269444_Registration.html)
+
 Azure cloud services offer you the ability to add storage, game save, leaderboards, High Scores.
 [More Detail on Azure Cloud for Gaming] (https://azure.microsoft.com/en-us/solutions/gaming/)
 
