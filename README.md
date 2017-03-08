@@ -106,12 +106,12 @@ Azure cloud services offer you the ability to add storage, game save, leaderboar
 
 ##Useful Resources for Cloud Gaming
 
-##Service Fabric Opensource Gaming Framework
+###Service Fabric Opensource Gaming Framework
 [What is Servcie Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
 [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
 [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
-#Azure SDK and tools
+###Azure SDK and tools
 
 [Unity Azure SDK] (https://github.com/Unity3dAzure)
 [Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
