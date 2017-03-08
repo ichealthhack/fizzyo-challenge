@@ -8,7 +8,7 @@ The Fizzyo device appears as a Joystick on the computer, so you simply need to h
 
 ### We allow for 2 types of inputs:
 
- - Breath – This appears as the Horizontal axis of the joystick, (float) returns breath strength from (-1 – 1) with 0 being not breathing, > 0.7 blowing or breathing out hard and < -.5 breathing in hard
+ - Breath – This appears as the Horizontal axis of the joystick, (float) returns breath strength from (-1 – 1) with 0 being not breathing, > 0.7 blowing or breathing out hard and < -0.5 breathing in hard
  
  - Button Press – We’ve added 1 button to the device to make game interactions a little more sophisticated. This button appears as Fire1 from a joystick control.
 
@@ -19,9 +19,31 @@ The Fizzyo device appears as a Joystick on the computer, so you simply need to h
 Input.GetButtonDown("Fire1");
 
 //(float) returns breath strength from (-1 – 1) with 0 being not breathing,
-          > 0.7 blowing or breathing out hard and < -.5 breathing in hard
+          > 0.7 blowing or breathing out hard and < -0.5 breathing in hard
 Input.GetAxis("Horizontal");
 ```
+##Example of Bluetooth Joytsicks which can be used to replicate the devices
+
+Analogue Joystick input is required. 
+
+[Motionjoy® Mini Wireless Bluetooth Joystick GamePad Controller Selfie Remote Shutter for IOS Android Phone PC Tablet VR (Black)] (https://www.amazon.co.uk/gp/product/B01AI9CZVE/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1)
+
+[VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet] )https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
+
+
+##Typical Physio Sequence
+9 - 10 cycles of the following routine
+Long slow breadth in until lungs are full (typically 2 sec depending on size of child)
+Hold the breadth 
+Exhale out active but not forced (typically 3 secs in length maintained velocity) 
+Then a huff/cough (the device is typically removed) This is forceful and the most important as its part of airway clearance (can this be used with your game)
+
+##Game Types - think about the exercise
+
+Games children have suggested
+Bowling/firing a object (Breadth to charge)
+Geometry Dash/Flappy Bird (Jumping or movement)
+Angry Bird (Breadth to charge/fire)
 
 ## Game requirements
 
