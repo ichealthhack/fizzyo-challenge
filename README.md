@@ -32,18 +32,18 @@ Analogue Joystick input is required.
 
 
 ##Typical Physio Sequence
-9 - 10 cycles of the following routine
-Long slow breadth in until lungs are full (typically 2 sec depending on size of child)
-Hold the breadth 
-Exhale out active but not forced (typically 3 secs in length maintained velocity) 
-Then a huff/cough (the device is typically removed) This is forceful and the most important as its part of airway clearance (can this be used with your game)
+-9 - 10 cycles of the following routine
+-Long slow breadth in until lungs are full (typically 2 sec depending on size of child)
+-Hold the breadth 
+-Exhale out active but not forced (typically 3 secs in length maintained velocity) 
+-Then a huff/cough (the device is typically removed) This is forceful and the most important as its part of airway clearance (can this be used with your game)
 
 ##Game Types - think about the exercise
 
-Games children have suggested
-Bowling/firing a object (Breadth to charge)
-Geometry Dash/Flappy Bird (Jumping or movement)
-Angry Bird (Breadth to charge/fire)
+###Games children have suggested
+-Bowling/firing a object (Breadth to charge)
+-Geometry Dash/Flappy Bird (Jumping or movement)
+-Angry Bird (Breadth to charge/fire)
 
 ## Game requirements
 
