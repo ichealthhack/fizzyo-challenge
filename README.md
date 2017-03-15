@@ -26,9 +26,9 @@ Input.GetAxis("Horizontal");
 
 Analogue Joystick input is required. 
 
-[Motionjoy® Mini Wireless Bluetooth Joystick GamePad Controller Selfie Remote Shutter for IOS Android Phone PC Tablet VR (Black)] (https://www.amazon.co.uk/gp/product/B01AI9CZVE/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1)
+[Motionjoy® Mini Wireless Bluetooth Joystick GamePad Controller Selfie Remote Shutter for IOS Android Phone PC Tablet VR (Black)](https://www.amazon.co.uk/gp/product/B01AI9CZVE/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1)
 
-[VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet] (https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
+[VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet](https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
 
 
 ## Typical Physio Sequence
@@ -108,20 +108,20 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - Azure cloud services offer you the ability to add storage, game save, leaderboards, High Scores.
 
-- [More Detail on Azure Cloud for Gaming] (https://azure.microsoft.com/en-us/solutions/gaming/)
+- [More Detail on Azure Cloud for Gaming](https://azure.microsoft.com/en-us/solutions/gaming/)
 
 ## Useful Resources for Cloud Gaming
 
 ### Service Fabric Opensource Gaming Framework
-- [What is Service Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
-- [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
-- [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
+- [What is Service Fabric](https://azure.microsoft.com/en-us/services/service-fabric/)
+- [Open Source Gaming Framework with scalable, SignalR gateway](https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
+- [Unity Tanks demo, becomes multiplayer with Service Fabric](https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
 ### Azure SDK and tools
 
-- [Unity Azure SDK] (https://github.com/Unity3dAzure)
-- [Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
-In future you can add Windows 10/Xbox Live Creators Update - - - [Add Xbox Gaming Features to your game - In Preview] (https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
+- [Unity Azure SDK](https://github.com/Unity3dAzure)
+- [Using App Services to Create a Leaderboard](http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
+In future you can add Windows 10/Xbox Live Creators Update - - - [Add Xbox Gaming Features to your game - In Preview](https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
 
 ## Hack entry specific requirements for this challenge
 
@@ -197,9 +197,9 @@ Input.GetAxis("Horizontal");
 
 Analogue Joystick input is required. 
 
-- [Motionjoy® Mini Wireless Bluetooth Joystick GamePad Controller Selfie Remote Shutter for IOS Android Phone PC Tablet VR (Black)] (https://www.amazon.co.uk/gp/product/B01AI9CZVE/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1)
+- [Motionjoy® Mini Wireless Bluetooth Joystick GamePad Controller Selfie Remote Shutter for IOS Android Phone PC Tablet VR (Black)](https://www.amazon.co.uk/gp/product/B01AI9CZVE/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1)
 
-- [VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet] (https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
+- [VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet](https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
 
 
 ## Typical Physio Sequence
@@ -267,9 +267,9 @@ In relation to output of the games from Health Hack we would like to implement a
 
 ## Gaming, Cloud Services & Backend
 
-- You will need to use [Unity3d] (http://www.unity3d.com) for you game development we want games for Android, iOS and Windows. 
+- You will need to use [Unity3d](http://www.unity3d.com) for you game development we want games for Android, iOS and Windows. 
 
-- If your new to Unity you can build 2D or 3D games for the Fizzyo device see [https://unity3d.com/learn] for resources and tutorials.
+- If your new to Unity you can build 2D or 3D games for the Fizzyo device [see][https://unity3d.com/learn] for resources and tutorials.
 
 - All attendees will be provided with [Microsoft Azure](https://azure.microsoft.com) you will recieve $100 credit per month for 6 months 
 
@@ -284,15 +284,15 @@ In relation to output of the games from Health Hack we would like to implement a
 ## Useful Resources for Cloud Gaming
 
 
-- [What is Service Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
-- [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
-- [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
+- [What is Service Fabric](https://azure.microsoft.com/en-us/services/service-fabric/)
+- [Open Source Gaming Framework with scalable, SignalR gateway](https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
+- [Unity Tanks demo, becomes multiplayer with Service Fabric](https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
 ### Azure SDK and tools
 
-- [Unity Azure SDK] (https://github.com/Unity3dAzure)
-- [Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
-- In future you can add Windows 10/Xbox Live Creators Update - [Add Xbox Gaming Features to your game - In Preview] (https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
+- [Unity Azure SDK](https://github.com/Unity3dAzure)
+- [Using App Services to Create a Leaderboard](http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
+- In future you can add Windows 10/Xbox Live Creators Update - [Add Xbox Gaming Features to your game - In Preview](https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
 
 ## Hack entry specific requirements for this challenge
 
