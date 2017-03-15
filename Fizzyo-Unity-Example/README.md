@@ -1,14 +1,14 @@
 
-##Example
-###Scenes/StartCalibrate.unity
+# Example
+### Scenes/StartCalibrate.unity
 A simple example of pre-calibrating your game for use by different people with different lung strengths.
 In this example the user is invited to blow steadily for 2 seconds to start the game, during this time the max blow strength is recorded and used to scale pressure values in subsequent levels.
 
-###Scenes/JetpackLevel.unity
+### Scenes/JetpackLevel.unity
 Breathing into the device propels a character into the air using a jetpack with the height of the character is mapped to the breath strength. The fizzyo's  button or spacebar can be used to fire missiles.
 
 
-##Test Harness
+## Test Harness
 This example includes a test harness and test data that allows you to load and playback breath data saved from a fizzyo device.
 To use this a singleton class is provided FizzyoDevice.Instance() that can be used at any point in your code if FizzyoDevice.cs is present in your project.
 
