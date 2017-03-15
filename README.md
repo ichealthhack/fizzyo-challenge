@@ -113,15 +113,15 @@ In relation to output of the games from Health Hack we would like to implement a
 ## Useful Resources for Cloud Gaming
 
 ### Service Fabric Opensource Gaming Framework
-[What is Service Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
-[Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
-[Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
+- [What is Service Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
+- [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
+- [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
 ### Azure SDK and tools
 
-[Unity Azure SDK] (https://github.com/Unity3dAzure)
-[Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
-In future you can add Windows 10/Xbox Live Creators Update - [Add Xbox Gaming Features to your game - In Preview] (https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
+- [Unity Azure SDK] (https://github.com/Unity3dAzure)
+- [Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
+In future you can add Windows 10/Xbox Live Creators Update - - - [Add Xbox Gaming Features to your game - In Preview] (https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
 
 ## Hack entry specific requirements for this challenge
 
