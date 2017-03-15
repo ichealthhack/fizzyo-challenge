@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Thanks for entering the Microsoft Fizzyo Challenge
 
 Our hope is the Fizzyo device this will motivate children to do their physio every day and potentially help other families with Cystic Fibrosis as well!
@@ -169,7 +168,7 @@ In future you can add Windows 10/Xbox Live Creators Update - - - [Add Xbox Gamin
 - Microsoft Goodie Bag
 - Microsoft T Shirt
 - Microsoft Xbox Onezie
-=======
+
 # Thanks for entering the Microsoft Fizzyo Challenge
 
 Our hope is the Fizzyo device this will motivate children to do their physio every day and potentially help other families with Cystic Fibrosis as well!
@@ -340,4 +339,5 @@ In future you can add Windows 10/Xbox Live Creators Update - [Add Xbox Gaming Fe
 - Microsoft Goodie Bag
 - Microsoft T Shirt
 - Microsoft Xbox Onezie
->>>>>>> origin/master
+
+
