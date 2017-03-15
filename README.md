@@ -94,7 +94,7 @@ In relation to output of the games from Health Hack we would like to implement a
 - [Cystic fibrosis breathing techniques – acapella device](https://www.youtube.com/watch?v=DJFp6A_p2R8)
 - [Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask](https://www.youtube.com/watch?v=C1SLdjvNg9U)
 
-##Cloud Services & Backend
+## Cloud Services & Backend
 
 - All attendees will be provided with [Microsoft Azure](https://azure.microsoft.com) you will recieve $100 credit per month for 6 months 
 
@@ -106,14 +106,14 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - [More Detail on Azure Cloud for Gaming] (https://azure.microsoft.com/en-us/solutions/gaming/)
 
-##Useful Resources for Cloud Gaming
+## Useful Resources for Cloud Gaming
 
-###Service Fabric Opensource Gaming Framework
+### Service Fabric Opensource Gaming Framework
 [What is Servcie Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
 [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
 [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
-###Azure SDK and tools
+### Azure SDK and tools
 
 [Unity Azure SDK] (https://github.com/Unity3dAzure)
 [Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
