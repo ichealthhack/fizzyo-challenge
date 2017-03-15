@@ -59,11 +59,9 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - We will be making available 3 x Fizzyo Acepella Engineering devices to hacker for testing of game content
 
-- We will be providing a Unity Sample Game which shows the input methods
+- We have provided a Unity Sample Game which shows the input methods see [Fizzyo-Unity-Example] (https://github.com/ichealthhack/fizzyo-challenge/tree/master/Fizzyo-Unity-Example) Folder this contains pre calbiration information, simply game and a test harness and test data
 
-- We will be providing a sample data set of captured results from the devices for games testing
-
-- We will be providing a Unity test harness for importing test data into developed games.
+- We have provided a Unity Test Harness and sample data. The data data set of captured results from the devices are for games testing. This includes an example that allows you to load and playback breath data saved from a fizzyo device.
 
 ## How the Devices are used by Patients and how this should be related to game play
 
