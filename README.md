@@ -22,7 +22,7 @@ Input.GetButtonDown("Fire1");
           > 0.7 blowing or breathing out hard and < -0.5 breathing in hard
 Input.GetAxis("Horizontal");
 ```
-##Example of Bluetooth Joytsicks which can be used to replicate the devices
+## Example of Bluetooth Joytsicks which can be used to replicate the devices
 
 Analogue Joystick input is required. 
 
@@ -31,16 +31,16 @@ Analogue Joystick input is required.
 [VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet] (https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
 
 
-##Typical Physio Sequence
+## Typical Physio Sequence
 - 9 - 10 cycles of the following routine
 - Long slow breadth in until lungs are full (typically 2 sec depending on size of child)
 - Hold the breadth 
 - Exhale out active but not forced (typically 3 secs in length maintained velocity) 
 - Then a huff/cough (the device is typically removed) This is forceful and the most important as its part of airway clearance (can this be used with your game)
 
-##Game Types - think about the exercise
+## Game Types - think about the exercise
 
-###Games children have suggested
+### Games children have suggested
 - Bowling/firing a object (Breadth to charge)
 - Geometry Dash/Flappy Bird (Jumping or movement)
 - Angry Bird (Breadth to charge/fire)
@@ -59,11 +59,9 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - We will be making available 3 x Fizzyo Acepella Engineering devices to hacker for testing of game content
 
-- We will be providing a Unity Sample Game which shows the input methods
+- We have provided a Unity Sample Game which shows the input methods see [Fizzyo-Unity-Example] (https://github.com/ichealthhack/fizzyo-challenge/tree/master/Fizzyo-Unity-Example) Folder this contains pre calbiration information, simply game and a test harness and test data
 
-- We will be providing a sample data set of captured results from the devices for games testing
-
-- We will be providing a Unity test harness for importing test data into developed games.
+- We have provided a Unity Test Harness and sample data. The data data set of captured results from the devices are for games testing. This includes an example that allows you to load and playback breath data saved from a fizzyo device.
 
 ## How the Devices are used by Patients and how this should be related to game play
 
@@ -96,7 +94,11 @@ In relation to output of the games from Health Hack we would like to implement a
 - [Cystic fibrosis breathing techniques – acapella device](https://www.youtube.com/watch?v=DJFp6A_p2R8)
 - [Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask](https://www.youtube.com/watch?v=C1SLdjvNg9U)
 
-##Cloud Services & Backend
+## Gaming, Cloud Services & Backend
+
+- You will need to use [Unity3d] (http://www.unity3d.com) for you game development we want games for Android, iOS and Windows. 
+
+- If your new to Unity you can build 2D or 3D games for the Fizzyo device see [https://unity3d.com/learn] for resources and tutorials.
 
 - All attendees will be provided with [Microsoft Azure](https://azure.microsoft.com) you will recieve $100 credit per month for 6 months 
 
@@ -108,14 +110,14 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - [More Detail on Azure Cloud for Gaming] (https://azure.microsoft.com/en-us/solutions/gaming/)
 
-##Useful Resources for Cloud Gaming
+## Useful Resources for Cloud Gaming
 
-###Service Fabric Opensource Gaming Framework
+
 [What is Service Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
 [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
 [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
-###Azure SDK and tools
+### Azure SDK and tools
 
 [Unity Azure SDK] (https://github.com/Unity3dAzure)
 [Using App Services to Create a Leaderboard] (http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
