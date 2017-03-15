@@ -22,7 +22,7 @@ Input.GetButtonDown("Fire1");
           > 0.7 blowing or breathing out hard and < -0.5 breathing in hard
 Input.GetAxis("Horizontal");
 ```
-##Example of Bluetooth Joytsicks which can be used to replicate the devices
+## Example of Bluetooth Joytsicks which can be used to replicate the devices
 
 Analogue Joystick input is required. 
 
@@ -31,16 +31,16 @@ Analogue Joystick input is required.
 [VR Wireless Bluetooth Remote Gamepad Controller for Android IOS Phone Tablet] (https://www.amazon.co.uk/gp/product/B01LZJ3ZLU/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
 
 
-##Typical Physio Sequence
+## Typical Physio Sequence
 - 9 - 10 cycles of the following routine
 - Long slow breadth in until lungs are full (typically 2 sec depending on size of child)
 - Hold the breadth 
 - Exhale out active but not forced (typically 3 secs in length maintained velocity) 
 - Then a huff/cough (the device is typically removed) This is forceful and the most important as its part of airway clearance (can this be used with your game)
 
-##Game Types - think about the exercise
+## Game Types - think about the exercise
 
-###Games children have suggested
+### Games children have suggested
 - Bowling/firing a object (Breadth to charge)
 - Geometry Dash/Flappy Bird (Jumping or movement)
 - Angry Bird (Breadth to charge/fire)
@@ -109,7 +109,7 @@ In relation to output of the games from Health Hack we would like to implement a
 ## Useful Resources for Cloud Gaming
 
 ### Service Fabric Opensource Gaming Framework
-[What is Servcie Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
+[What is Service Fabric] (https://azure.microsoft.com/en-us/services/service-fabric/)
 [Open Source Gaming Framework with scalable, SignalR gateway] (https://github.com/SthlmTechAngels/GDC2017ServiceFabric) 
 [Unity Tanks demo, becomes multiplayer with Service Fabric] (https://github.com/SthlmTechAngels/GDC2017Unity3d)
 
