@@ -59,7 +59,7 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - We will be making available 3 x Fizzyo Acepella Engineering devices to hacker for testing of game content
 
-- We have provided a Unity Sample Game which shows the input methods see [Fizzyo-Unity-Example] (https://github.com/ichealthhack/fizzyo-challenge/tree/master/Fizzyo-Unity-Example) Folder this contains pre calbiration information, simply game and a test harness and test data
+- We have provided a Unity Sample Game which shows the input methods see [Fizzyo-Unity-Example] (https://github.com/ichealthhack/fizzyo-challenge/tree/master/Fizzyo-Unity-Example) Folder this contains pre calibration information, a sample game and test harness + test data
 
 - We have provided a Unity Test Harness and sample data. The data data set of captured results from the devices are for games testing. This includes an example that allows you to load and playback breath data saved from a fizzyo device.
 
@@ -98,7 +98,7 @@ In relation to output of the games from Health Hack we would like to implement a
 
 - You will need to use [Unity3d] (http://www.unity3d.com) for you game development we want games for Android, iOS and Windows. 
 
-- If your new to Unity you can build 2D or 3D games for the Fizzyo device see [https://unity3d.com/learn] for resources and tutorials.
+- If your new to Unity you can build 2D or 3D games for the Fizzyo device [see] (https://unity3d.com/learn) for resources and tutorials.
 
 - All attendees will be provided with [Microsoft Azure](https://azure.microsoft.com) you will recieve $100 credit per month for 6 months 
 
