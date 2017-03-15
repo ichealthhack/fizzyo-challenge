@@ -94,7 +94,11 @@ In relation to output of the games from Health Hack we would like to implement a
 - [Cystic fibrosis breathing techniques – acapella device](https://www.youtube.com/watch?v=DJFp6A_p2R8)
 - [Cystic fibrosis breathing techniques – positive expiratory pressure (PEP) mask](https://www.youtube.com/watch?v=C1SLdjvNg9U)
 
-## Cloud Services & Backend
+## Gaming, Cloud Services & Backend
+
+- You will need to use [Unity3d] (http://www.unity3d.com) for you game development we want games for Android, iOS and Windows. 
+
+- If your new to Unity you can build 2D or 3D games for the Fizzyo device see [https://unity3d.com/learn] for resources and tutorials.
 
 - All attendees will be provided with [Microsoft Azure](https://azure.microsoft.com) you will recieve $100 credit per month for 6 months 
 
