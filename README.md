@@ -55,9 +55,15 @@ In relation to output of the games from Health Hack we would like to implement a
 
 ## Hardware and test data being provided
 
+### Airway Clearance Physio Devices
+
+![Airway Clearance Devices](https://github.com/ichealthhack/fizzyo-challenge/blob/master/images/Airway.jpg)
+
 - We will be making available 3 x Fizzyo PEP Engineering devices to hacker for testing of game content
 
 - We will be making available 3 x Fizzyo Acepella Engineering devices to hacker for testing of game content
+
+### Test Data from devices + Sample Unity Game
 
 - We have provided a Unity Sample Game which shows the input methods - see [Fizzyo-Unity-Example](https://github.com/ichealthhack/fizzyo-challenge/tree/master/Fizzyo-Unity-Example) Folder which contains pre calibration information, a sample game and test harness + test data
 
@@ -79,6 +85,10 @@ In relation to output of the games from Health Hack we would like to implement a
 - Children aim for prolonged steady expiratory flow of at least 3s (although this may be a bit shorter in small children or those with severe disease who are breathless)
 
 - The resistance in mid expiration for PEP should be 10-20cm H2O (ideally 12-15) measured by PEP manometer (in circuit) for mid-part of expiration.
+
+## Physio Routine for children
+
+![Physio Routine](https://github.com/ichealthhack/fizzyo-challenge/blob/master/images/PhysioRoutine.jpg)
 
 - Treatments usually consistent of a series of ‘cycles’ – One cycle might typically include say 8-10 breaths through device (PEP & Acapella & Flutter ) as described above, followed by fewer but more forceful huffs (often not through the device- although some will huff through their PEP) and coughing as needed. The cycles are repeated until the chest feels clear. 
 
