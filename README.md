@@ -183,3 +183,7 @@ A great tool for Visualisation and charting is [Microsoft PowerBI](http://www.po
 - Microsoft Goodie Bag
 - Microsoft T Shirt
 - Microsoft Xbox Onezie
+
+## Charity Donations & Giving
+
+As part of Health Hack Microsoft will be match funding any donations which are given to the Cystic Fibrosis Trust via the following site http://aka.ms/healthhack  
