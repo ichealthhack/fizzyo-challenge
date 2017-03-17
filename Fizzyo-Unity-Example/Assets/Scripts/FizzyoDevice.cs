@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using System.IO;
 using System.Timers;
+using UnityEngine.UI;
 
 public class FizzyoDevice : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class FizzyoDevice : MonoBehaviour
     public bool useRecordedData = true;
     public bool loop = true;
     public string recordedDataPath = "Data/FizzyoData_3min.fiz";
+    public Text debugTextPressure = null;
 
     //Singleton
     private static FizzyoDevice instance;
@@ -86,20 +88,28 @@ void Start()
 
     }
 
-    /*
-     * (float) Returns  pressure data reported from device or log file with a range of -1 - 1. 
-     *  If useRecordedData is set to false pressure data is streamed from the device or streamed from a log file if set to true.
-     * 
-     */
+    /// <summary>
+    /// If useRecordedData is set to false pressure data is streamed from the device or streamed from a log file if set to true.
+    /// </summary>
+    /// <returns>pressure data reported from device or log file with a range of -1 - 1.</returns>
     public float Pressure()
     {
         if (useRecordedData)
         {
+            if(debugTextPressure != null)
+            {
+                debugTextPressure.text = String.Format("{0:0}", pressure * 100);   
+            }
             return pressure;
         }
         else
         {
-            return Input.GetAxisRaw("Horizontal");
+            float p = Input.GetAxisRaw("Horizontal");
+            if (debugTextPressure != null)
+            {
+                debugTextPressure.text = String.Format("{0:0}", p * 100);
+            }
+            return p;
         }
     }
 

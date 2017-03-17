@@ -6,11 +6,12 @@ public class Player : MonoBehaviour {
     //public
     public float maxHeight = 5f;
     public GameObject missilePrefab;
+    public bool smoothMovement = true;
+    public float maxFizzyoPressure = 0.5f; //calibrated on start screen
 
     //private
     float destXSpeed = 0.02f;
-    public float maxFizzyoPressure = 0.5f; //calibrated on start screen
-    public float smoothing = 0.1f;
+    private float smoothing = 0.03f;
     private float xSpeed = 0f;
 
     // Use this for initialization
@@ -34,10 +35,20 @@ public class Player : MonoBehaviour {
         float pressure = FizzyoDevice.Instance().Pressure();
 
         float destHeight = maxHeight * Mathf.Min((pressure / maxFizzyoPressure), 1);
-        float y = transform.position.y + ((destHeight - transform.position.y) * smoothing);
+
+        float y;
+
+        if (smoothMovement)
+        {
+             y = transform.position.y + ((destHeight - transform.position.y) * smoothing);
+        }
+        else
+        {
+            y = destHeight;
+        }
 
         float x = transform.position.x;
-        if (y > 0.1f)
+        if (y > 0.15f)
         {
             xSpeed += (destXSpeed - xSpeed) * smoothing;
             x += xSpeed;
