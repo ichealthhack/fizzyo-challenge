@@ -134,6 +134,10 @@ In relation to output of the games from Health Hack we would like to implement a
 - [Using App Services to Create a Leaderboard](http://www.deadlyfingers.net/azure/azure-app-services-for-unity3d/)
 In future you can add Windows 10/Xbox Live Creators Update - - - [Add Xbox Gaming Features to your game - In Preview](https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator)
 
+## Visualisation and Charting using Microsoft PowerBI
+
+A great tool for Visualisation and charting is [Microsoft PowerBI](http://www.powerbi.com) if your new to PowerBI or data visualisation then please watch this short webinar which wil give you an overview of data visualisation with [Power BI](https://info.microsoft.com/UK-MSFT-WBNR-FY17-12Dec-05-MicrosoftAzureBringyourDatatoLifePowerBIWebinar-269449_Registration.html)
+
 ## Hack entry specific requirements for this challenge
 
 - All output from Health Hack will be under GNU open-source licensing and all entries stored within [this organisation](https://github.com/ichealthhack).
