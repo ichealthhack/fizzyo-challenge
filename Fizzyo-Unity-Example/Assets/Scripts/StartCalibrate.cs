@@ -7,6 +7,7 @@ public class StartCalibrate : MonoBehaviour {
     //public 
     public Text startText;
     public GameObject pressureBar;
+    public ParticleSystem particleSystem;
 
     //private
     private float maxPressureReading = 0;
@@ -14,7 +15,7 @@ public class StartCalibrate : MonoBehaviour {
 
     private System.Diagnostics.Stopwatch blowingStopwatch;
     private int countdownToStart = 3;
-    private float smoothing = 0.00001f;
+    private float smoothing = 0.05f;
 
     // Use this for initialization
     void Start () {
@@ -26,8 +27,15 @@ public class StartCalibrate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         float pressure = FizzyoDevice.Instance().Pressure();
-        float y = transform.position.y + ((pressure * 5) - pressureBar.transform.position.y) * smoothing;
-        pressureBar.transform.position = new Vector3(pressureBar.transform.position.x,y , pressureBar.transform.position.z);
+
+        //animate breath particles
+        particleSystem.startSpeed = pressure*500;
+        particleSystem.startLifetime = pressure * 1;
+
+        //set pressure bar height
+        float destHeight = -20 * pressure;
+        float y = pressureBar.transform.localPosition.y + ((destHeight - pressureBar.transform.localPosition.y) * smoothing);
+        pressureBar.transform.localPosition = new Vector3(pressureBar.transform.localPosition.x, y, pressureBar.transform.localPosition.z);
 
 
         if (pressure > minPressureThreshold )
@@ -42,7 +50,7 @@ public class StartCalibrate : MonoBehaviour {
             }else{
                 //Save the max recorded pressure to use to scale sensor input during gameplay.
                 PlayerPrefs.SetFloat("Max Fizzyo Pressure", maxPressureReading);
-                SceneManager.LoadScene("SimpleJoystick");
+                SceneManager.LoadScene("JetpackLevel");
             }
         }
         else
