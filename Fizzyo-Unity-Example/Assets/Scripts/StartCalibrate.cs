@@ -3,7 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class StartCalibrate : MonoBehaviour {
+public class StartCalibrate : MonoBehaviour
+{
     //public 
     public Text startText;
     public GameObject pressureBar;
@@ -18,18 +19,20 @@ public class StartCalibrate : MonoBehaviour {
     private float smoothing = 0.05f;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         // Create new stopwatch.
         blowingStopwatch = new System.Diagnostics.Stopwatch();
-        startText.text = ""+countdownToStart;
+        startText.text = "" + countdownToStart;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         float pressure = FizzyoDevice.Instance().Pressure();
 
         //animate breath particles
-        particleSystem.startSpeed = pressure*500;
+        particleSystem.startSpeed = pressure * 500;
         particleSystem.startLifetime = pressure * 1;
 
         //set pressure bar height
@@ -38,7 +41,7 @@ public class StartCalibrate : MonoBehaviour {
         pressureBar.transform.localPosition = new Vector3(pressureBar.transform.localPosition.x, y, pressureBar.transform.localPosition.z);
 
 
-        if (pressure > minPressureThreshold )
+        if (pressure > minPressureThreshold)
         {
             maxPressureReading = pressure;
             blowingStopwatch.Start();
@@ -47,7 +50,9 @@ public class StartCalibrate : MonoBehaviour {
             if (timeToStart > 0)
             {
                 startText.text = "" + timeToStart;
-            }else{
+            }
+            else
+            {
                 //Save the max recorded pressure to use to scale sensor input during gameplay.
                 PlayerPrefs.SetFloat("Max Fizzyo Pressure", maxPressureReading);
                 SceneManager.LoadScene("JetpackLevel");
@@ -57,6 +62,6 @@ public class StartCalibrate : MonoBehaviour {
         {
             blowingStopwatch.Stop();
         }
-       
+
     }
 }

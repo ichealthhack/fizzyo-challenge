@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
 
     //public
     public float maxHeight = 5f;
-    public GameObject missilePrefab;
     public bool smoothMovement = true;
     public float maxFizzyoPressure = 0.5f; //calibrated on start screen
+    public GameObject missilePrefab;
 
     //private
     float destXSpeed = 0.02f;
@@ -15,7 +16,8 @@ public class Player : MonoBehaviour {
     private float xSpeed = 0f;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
 
         //load our sensor calibration if already set
         if (PlayerPrefs.HasKey("Max Fizzyo Pressure"))
@@ -27,7 +29,8 @@ public class Player : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         //get the pressure value of our fizzyo device communicated as a joystick axis 0-1 blow out -1-0 breath in
         //float fizzyoVal = Input.GetAxisRaw("Horizontal");
 
@@ -40,7 +43,7 @@ public class Player : MonoBehaviour {
 
         if (smoothMovement)
         {
-             y = transform.position.y + ((destHeight - transform.position.y) * smoothing);
+            y = transform.position.y + ((destHeight - transform.position.y) * smoothing);
         }
         else
         {
@@ -59,11 +62,11 @@ public class Player : MonoBehaviour {
         }
         transform.position = new Vector3(x, y, transform.position.z);
 
-        if (FizzyoDevice.Instance().ButtonDown() || Input.GetKeyDown(KeyCode.Space))
+        if (FizzyoDevice.Instance().ButtonDown() || Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
         {
             var pos = transform.position;
             pos.y += 0.5f;
-            GameObject missile = (GameObject)Instantiate(missilePrefab, pos, transform.rotation);
+            Instantiate(missilePrefab, pos, transform.rotation);
         }
     }
 
