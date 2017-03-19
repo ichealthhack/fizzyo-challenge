@@ -104,6 +104,11 @@ public class FizzyoDevice : MonoBehaviour
         return Input.GetButtonDown("Fire1");
     }
 
+    public bool Button()
+    {
+        return Input.GetButton("Fire1");
+    }
+
 
     void PollLoggedData(object o, System.EventArgs e)
     {
